@@ -5,7 +5,7 @@
 ## 0. 文档说明
 
 `wasted_build_android.sh`是参考[mobile-ffmpeg](https://github.com/tanersener/mobile-ffmpeg)的配置。很可惜还不能运行。但是可以作为参考。
-`build/`下的是mobile-ffmpeg编译x265的脚本并且对其进行了一些修改。运行`android-x265.sh`可以成功编译静态库。
+`mobile-ffmpeg/`下的是mobile-ffmpeg编译x265的脚本并且对其进行了一些修改。运行`android-x265.sh`可以成功编译静态库。
 
 `build_android.sh`可以按照官方推荐的步骤编译动态库。它会将`android_armv7.cmake`或者`android_armv8.cmake`作为交叉编译配置传递给官方cmake脚本。这两个文件也是参考了官方交叉编译脚本，在`$X265_PATH/build`文件夹下，有各平台交叉编译的配置示范。
 
